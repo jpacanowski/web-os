@@ -1,21 +1,24 @@
 $(function() {
 
+    var zIndex = 1;
+
 	startTime();
 
 	$('.tooltip').tooltipster({
-       animation: 'fade',
-       delay: 200,
-       theme: 'tooltipster-light',
-       touchDevices: false,
-       trigger: 'hover'
+        animation: 'fade',
+        delay: 200,
+        theme: 'tooltipster-light',
+        touchDevices: false,
+        trigger: 'hover'
     });
 
 	$('.window h3').on('mousedown', function() {
-		$( ".window" ).draggable({zIndex: 100});
+        $('.window').draggable({zIndex: 100});
+        $(this).parent().parent().css('z-index', zIndex++);
 	});
 
 	$('.window h3').on('mouseup', function() {
-		$( ".window" ).draggable('destroy');
+		$('.window').draggable('destroy');
 	});
 
 	$('#dock img').on('click', function() {
