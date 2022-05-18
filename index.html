@@ -73,11 +73,13 @@
     <div id="Apps">
 
       <div id="WelcomeApp" class="window">
-        <div class="close"></div>
-        <div class="minimize"></div>
-        <div class="maximize"></div>
-        <h3>About WebOS</h3>
-        <div class="main">
+        <div class="window__topbar">
+          <h3>About WebOS</h3>
+          <div class="close"></div>
+          <div class="minimize"></div>
+          <div class="maximize"></div>
+        </div>
+        <div class="window__content">
           <img src="gfx/cloud-64.png" alt="" />
           <h1 style="margin-top: 0px;">Web OS</h1>
           <p style="font-size: 12px">(Pre-Alpha, build 3022015)</p>
@@ -88,20 +90,26 @@
         </div>
       </div>
 
-      <div id='TerminalApp' class='window'>
-        <div class='close'></div>
-        <div class='minimize'></div>
-        <div class='maximize'></div>
-        <h3>Terminal</h3>
-        <p>mattonit@webos~# sudo chmod -R 755 ~/Desktop/Projects/WebOS/_</p>
+      <div id="TerminalApp" class="window">
+        <div class="window__topbar">
+          <h3>Terminal</h3>
+          <div class="close"></div>
+          <div class="minimize"></div>
+          <div class="maximize"></div>
+        </div>
+        <div class="window__content">
+          <p>mattonit@webos~# sudo chmod -R 755 ~/Desktop/Projects/WebOS/_</p>
+        </div>
       </div>
 
-      <div id='WebBrowserApp' class='window'>
-        <div class='close'></div>
-        <div class='minimize'></div>
-        <div class='maximize'></div>
-        <h3>Web Browser</h3>
-        <div class="main">
+      <div id="WebBrowserApp" class="window">
+        <div class="window__topbar">
+          <h3>Web Browser</h3>
+          <div class="close"></div>
+          <div class="minimize"></div>
+          <div class="maximize"></div>
+        </div>
+        <div class="window__content">
           <div id="navbar">
             <div><img src="gfx/arrow-back-icon.png" alt="" /></div>
             <div><img src="gfx/arrow-next-icon.png" alt="" /></div>

@@ -2,8 +2,6 @@ $(function() {
 
 	startTime();
 
-	
-
 	$('.tooltip').tooltipster({
        animation: 'fade',
        delay: 200,
@@ -33,9 +31,9 @@ $(function() {
 
 $(document).ready(function(){
 	$("body").on("click", ".window .close", function() {
-		var winID = $(this).parent().attr("id");
-		if(confirm("Are you sure you want to close "+winID+"?")){
-			$("#"+winID).remove();
+		var winID = $(this).parent().parent().attr("id");
+		if(confirm("Are you sure you want to close " + winID + "?")){
+			$("#" + winID).remove();
 		}
 	});
 });

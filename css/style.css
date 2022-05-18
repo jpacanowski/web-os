@@ -82,7 +82,7 @@ body {
 	cursor: default;
 }
 
-.window .main p {
+.window .window__content p {
 	font-size: 12px;
 }
 
@@ -139,7 +139,7 @@ body {
 	left: calc(50% - 180px);
 }
 
-#messagebox .main {
+#messagebox .window__content {
 	padding: 15px;
 }
 

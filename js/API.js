@@ -13,8 +13,8 @@ var API = {
 		var box =
 			"<div id='messagebox' style='width: 360px; height: 190px;' class='window'>"
 		+	"	<h3>System info</h3>"
-		+	"	<div class='main'>"
-		+	"		<img src='information.png' alt='' />"
+		+	"	<div class='window__content'>"
+		+	"		<img src='gfx/information.png' alt='' />"
 		+	"		<p>The application is not available in this alpha version of Web OS. Please be patient and try another time.</p>"
 		+	"		<div style='clear: both'></div><a href='#' style='position: absolute; right: 15px; bottom: 15px' class='btn'>I understand</a>"
 		+	"	</div>"
