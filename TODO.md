@@ -1,0 +1,4 @@
+- [] możliwość maksymalizacji okna
+- [] możliwość minimalizacji okna
+- [] aktywne okno znika pod spód innego okna
+- [] manager otwartych aplikacji
