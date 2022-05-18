@@ -1,4 +1,8 @@
 body {
+	background: #354933;
+	background: -webkit-linear-gradient(top, #354933, #317A8D);
+	background: -moz-linear-gradient(top, #354933, #317A8D);
+	background: linear-gradient(to bottom, #354933, #317A8D);
 	background-color: #0375AB;
 	background-image: url('038a514bc31420cbff45bac3303672a9_large.jpeg');
 	background-size: cover;
@@ -6,10 +10,10 @@ body {
 }
 
 #menubar {
-	width: 100%;
-	height: 23px;
-	position: relative;
-	font-weight: 200;
+	padding: 4px 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
 	border-bottom: 1px #B1AEB1 solid;
 	background: #eeeeee;
 	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
@@ -21,10 +25,7 @@ body {
 }
 
 #menubar #clock {
-	position: absolute;
-	top: 3px;
-	right: 10px;
-	cursor: default;
+	text-align: right;
 }
 
 #dock {
